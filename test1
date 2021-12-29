@@ -1,0 +1,17 @@
+static int [] processArray(){
+		int processArray [] = new int[51];
+		for (int i = 0; i < processArray.length; i++) {
+      
+        if(processArray[i]<51&&processArray[i]%7!=0){
+        	processArray[i] = -3;
+        }
+        elseif(processArray[i]%7==0){
+        	processArray[i] = -8;
+        }
+        else{
+        	processArray[i] = -1;
+        }
+     }
+		return processArray;
+		
+	}	
